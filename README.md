@@ -1,0 +1,1 @@
+This is an ArcGIS web application to visualize and select water catchments. After selecting a catchement using the select widget, the user can select the neighbor catchments upstream or downstream using the widget "SelectCatchments".
