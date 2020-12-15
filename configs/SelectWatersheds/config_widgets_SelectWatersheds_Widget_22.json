@@ -1,0 +1,15 @@
+{
+  "selectionColor": "#00FFFF",
+  "selectionMode": "partial",
+  "enableByDefault": true,
+  "allowExport": true,
+  "includeRuntimeLayers": true,
+  "geometryTypes": [
+    "POINT"
+  ],
+  "layerState": {
+    "bassins-versants-elementaires-dile-de-france_shapefile_4956_0": {
+      "selected": true
+    }
+  }
+}
