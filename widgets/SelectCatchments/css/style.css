@@ -49,3 +49,23 @@ tr.spaceUnder > td {
   width: 235px;
   height: 115px;
 }
+
+.my-container {
+  border-style: dotted;
+  border-color:#757575; 
+  border-width: 2px;
+  border-radius: 4px;
+  margin-top: 3rem;
+}
+
+/* #area-section {
+  background-color: #64B5F6;
+} */
+
+#n-section {
+  background-color: #81C784;
+}
+
+#p-section {
+  background-color: #E57373;
+}

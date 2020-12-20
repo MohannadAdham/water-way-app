@@ -1,9 +1,39 @@
 <div>
   <div id="layerChooserNode"></div><br>
   <span data-dojo-attach-point="selectFrom"></span><br>
-  <div class="jimu-btn getUniqueValues jimuCustomColor" data-dojo-attach-event="onclick:_queryDownstream"> Select Downstream Catchments </div>
-  <div class="jimu-btn getUniqueValues jimu-btn-clear" data-dojo-attach-event="onclick:_clearSelection"> Clear </div>
-  <div class="jimu-btn getUniqueValues jimuCustomColor" data-dojo-attach-event="onclick:_queryUpstream"> Select Upstream Catchments </div>
+  <div class="jimu-container">
+    <div class="jimu-r-row jimu-corner-all">
+      <div class="col-4-5">
+        <button class="btn btn-primary btn-block" data-dojo-attach-event="onclick:_queryUpstream"> Select Upstream Sub-catchments</button>
+        <button class="btn btn-primary btn-block " data-dojo-attach-event="onclick:_queryDownstream"> Select Downstream Sub-catchements </button>
+        <button class="btn btn-primary btn-block "> Select the Whole Catchment </button>
+      </div>
+      <div class="col-1-5 text-right"> 
+        <button class="btn btn-danger" data-dojo-attach-event="onclick:_clearSelection"> Clear </button>
+      </div> 
+    </div>
+  </div>
+
+  <div class="jimu-container my-container" id="area-section" >
+    <div class="jimu-row text-center">
+      <h4>Selected Area</h4>
+      <p>Use the border classes</p> 
+    </div>
+  </div>
+
+  <div class="jimu-container my-container" id="n-section" >
+    <div class="jimu-row text-center">
+      <h4>Nitrogen (N)</h4>
+      <p>Use the border classes</p> 
+    </div>
+  </div>
+
+  <div class="jimu-container my-container" id="p-section">
+    <div class="jimu-row text-center">
+      <h4>Phosphorus</h4>
+      <p>Use the border classes</p> 
+    </div>
+  </div>
 
   <div data-dojo-attach-point="loadingNode"></div>
 </div>
