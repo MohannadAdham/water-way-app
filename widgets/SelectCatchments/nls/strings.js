@@ -1,6 +1,6 @@
 define({
   root: ({
-    _widgetLabel: "Select Catchments",
+    _widgetLabel: "Explore the Catchment",
     buttons: {
       equal: "=",
       notIn: "<>",

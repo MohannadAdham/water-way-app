@@ -51,21 +51,30 @@ tr.spaceUnder > td {
 }
 
 .my-container {
-  border-style: dotted;
-  border-color:#757575; 
-  border-width: 2px;
+  border-style: outset;
+  border-color:#759dc0; 
+  border-width: 1px;
   border-radius: 4px;
   margin-top: 3rem;
 }
 
-/* #area-section {
-  background-color: #64B5F6;
-} */
-
-#n-section {
+/* #n-section {
   background-color: #81C784;
 }
 
 #p-section {
   background-color: #E57373;
+} */
+
+.section-title {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2a2a2a;
+}
+
+.col-1-5 {
+  float: left;
+  min-height: 20px;
+  width: 20%;
 }
